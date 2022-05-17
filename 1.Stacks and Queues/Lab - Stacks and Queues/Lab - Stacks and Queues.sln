@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab - Stacks and Queues", "Lab - Stacks and Queues\Lab - Stacks and Queues.csproj", "{F0805167-F2CC-4AA7-9470-A6081DFA6E0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01. Reverse string", "Lab - Stacks and Queues\P01. Reverse string.csproj", "{F0805167-F2CC-4AA7-9470-A6081DFA6E0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02. Stack Sum", "P02. Stack Sum\P02. Stack Sum.csproj", "{6B419B83-0FBB-4A31-8A57-462900FB7885}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F0805167-F2CC-4AA7-9470-A6081DFA6E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0805167-F2CC-4AA7-9470-A6081DFA6E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0805167-F2CC-4AA7-9470-A6081DFA6E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B419B83-0FBB-4A31-8A57-462900FB7885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B419B83-0FBB-4A31-8A57-462900FB7885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B419B83-0FBB-4A31-8A57-462900FB7885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B419B83-0FBB-4A31-8A57-462900FB7885}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
