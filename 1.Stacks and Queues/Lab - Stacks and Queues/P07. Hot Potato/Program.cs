@@ -8,8 +8,8 @@ namespace P07._Hot_Potato
     {
         static void Main(string[] args)
         {
-            string[] players = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).ToArray();
-            Queue<string> queue = new Queue<string>();
+            string[] players = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries).ToArray();           
+            Queue<string> queue = new Queue<string>(players);
             int n = int.Parse(Console.ReadLine());
 
             while ( queue.Count > 1)
