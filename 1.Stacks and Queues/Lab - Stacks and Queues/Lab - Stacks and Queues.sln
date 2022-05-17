@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01. Reverse string", "Lab 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02. Stack Sum", "P02. Stack Sum\P02. Stack Sum.csproj", "{6B419B83-0FBB-4A31-8A57-462900FB7885}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04. Matching Brackets", "P04. Matching Brackets\P04. Matching Brackets.csproj", "{0918DFF6-0A26-484F-8C95-D88F13101791}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6B419B83-0FBB-4A31-8A57-462900FB7885}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B419B83-0FBB-4A31-8A57-462900FB7885}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B419B83-0FBB-4A31-8A57-462900FB7885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0918DFF6-0A26-484F-8C95-D88F13101791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0918DFF6-0A26-484F-8C95-D88F13101791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0918DFF6-0A26-484F-8C95-D88F13101791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0918DFF6-0A26-484F-8C95-D88F13101791}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
