@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace P04._Matching_Brackets
 {
@@ -6,7 +7,23 @@ namespace P04._Matching_Brackets
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string expression = Console.ReadLine();
+            Stack<int> stack = new Stack<int>();
+            for (int i = 0; i < expression.Length; i++)
+            {
+                char c = expression[i];
+                if (c == '(')
+                {
+                    stack.Push(i);
+                }
+                else if (c == ')')
+                {
+                    int startIndex = stack.Pop();
+                    int endIndex = i;
+                    string subexpr = expression.Substring(startIndex, endIndex - startIndex + 1);
+                    Console.WriteLine(subexpr);
+                }
+            }
         }
     }
 }
