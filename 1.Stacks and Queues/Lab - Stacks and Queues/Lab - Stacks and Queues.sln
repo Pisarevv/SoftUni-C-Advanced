@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07. Hot Potato", "P07. Hot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08. Traffic Jam", "P08. Traffic Jam\P08. Traffic Jam.csproj", "{0FF529C2-D243-4456-9A40-7CA04C4EB4CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03. Simple Calculator", "P03. Simple Calculator\P03. Simple Calculator.csproj", "{2A9CEE20-6A1D-4275-8C31-4F24EF34A33F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0FF529C2-D243-4456-9A40-7CA04C4EB4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FF529C2-D243-4456-9A40-7CA04C4EB4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FF529C2-D243-4456-9A40-7CA04C4EB4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A9CEE20-6A1D-4275-8C31-4F24EF34A33F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9CEE20-6A1D-4275-8C31-4F24EF34A33F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9CEE20-6A1D-4275-8C31-4F24EF34A33F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9CEE20-6A1D-4275-8C31-4F24EF34A33F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
