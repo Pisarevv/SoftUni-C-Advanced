@@ -14,7 +14,7 @@ namespace _1._Sum_Matrix_Elements
             int[,] matrix = new int[rows, cols];
             for (int i = 0; i < rows; i++)
             {
-                int[] line = Console.ReadLine().Split(", ").Select(int.Parse).ToArray();
+                int[] line = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
                 for (int j = 0; j < cols; j++)
                 {
                     matrix[i, j] = line[j];
