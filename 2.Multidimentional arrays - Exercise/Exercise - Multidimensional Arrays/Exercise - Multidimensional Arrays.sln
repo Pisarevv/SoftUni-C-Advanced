@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.V1.Matrix Shuffling", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06.V1. Jagged Array Manipulator", "..\P06.V1. Jagged Array Manipulator\P06.V1. Jagged Array Manipulator.csproj", "{9A964813-277A-474B-8624-F241EA14297A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07. Knight Game", "..\P07. Knight Game\P07. Knight Game.csproj", "{2694551F-6E5D-44BD-A4C2-61062921F9C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{9A964813-277A-474B-8624-F241EA14297A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A964813-277A-474B-8624-F241EA14297A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A964813-277A-474B-8624-F241EA14297A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2694551F-6E5D-44BD-A4C2-61062921F9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2694551F-6E5D-44BD-A4C2-61062921F9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2694551F-6E5D-44BD-A4C2-61062921F9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2694551F-6E5D-44BD-A4C2-61062921F9C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
