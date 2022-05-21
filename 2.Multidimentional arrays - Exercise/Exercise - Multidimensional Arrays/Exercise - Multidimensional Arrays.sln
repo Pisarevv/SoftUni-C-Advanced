@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.  2X2 Squares in Matrix
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04. Matrix Shuffling", "..\P04. Matrix Shuffling\P04. Matrix Shuffling.csproj", "{035E815B-CC6E-4377-B570-FA2C9E1DA2C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05. Snake Moves", "..\P05. Snake Moves\P05. Snake Moves.csproj", "{81149B8C-68DE-4DB6-837D-C358A74E2931}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{035E815B-CC6E-4377-B570-FA2C9E1DA2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{035E815B-CC6E-4377-B570-FA2C9E1DA2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{035E815B-CC6E-4377-B570-FA2C9E1DA2C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81149B8C-68DE-4DB6-837D-C358A74E2931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81149B8C-68DE-4DB6-837D-C358A74E2931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81149B8C-68DE-4DB6-837D-C358A74E2931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81149B8C-68DE-4DB6-837D-C358A74E2931}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
