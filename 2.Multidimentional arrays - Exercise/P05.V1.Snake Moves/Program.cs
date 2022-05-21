@@ -17,9 +17,9 @@ namespace P05.V1.Snake_Moves
 
             for (int row = 0; row < rowCount; row++)
             {
-                for (int col = 0; col < colCount; col++)
+                if (row % 2 == 0)
                 {
-                    if(row%2 == 0)
+                    for (int col = 0; col < colCount; col++)
                     {
                         matrix[row, col] = snake[index];
                         index++;
@@ -28,21 +28,25 @@ namespace P05.V1.Snake_Moves
                         {
                             index = 0;
                         }
-                    }
-                    else
-                    {
-                        matrix[row, col] = snake[index];
-                        index++;
-
-                        if (index >= snake.Length)
-                        {
-                            index = 0;
-                        }
-                    }
-                    
+                    }                 
                 }
-                PrintMatrix(matrix);
+                else
+                {
+                    for (int col = colCount-1; col >= 0; col--)
+                    {
+                        matrix[row, col] = snake[index];
+                        index++;
+
+                        if (index >= snake.Length)
+                        {
+                            index = 0;
+                        }
+                    }
+                }
+                
+                
             }
+            PrintMatrix(matrix);
         }
 
         private static void PrintMatrix(char[,] matrix)
@@ -51,7 +55,7 @@ namespace P05.V1.Snake_Moves
             {
                 for (int col = 0; col < matrix.GetLength(1); col++)
                 {
-                    Console.Write(matrix[row, col] + " ");
+                    Console.Write(matrix[row, col]);
 
                 }
                 Console.WriteLine();
