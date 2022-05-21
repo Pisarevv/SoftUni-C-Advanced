@@ -20,7 +20,8 @@ namespace P02.__2X2_Squares_in_Matrix
                 for (int cols = 0; cols < colsCount-1; cols++)
                 {
                     if (matrix[rows, cols] == matrix[rows+1,cols] 
-                        && matrix[rows,cols+1] == matrix[rows + 1, cols + 1])
+                        && matrix[rows,cols+1] == matrix[rows + 1, cols + 1]
+                        && matrix[rows, cols] == matrix[rows + 1, cols + 1])
                     {
                         SameMatrixes++;
                     }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01. Diagonal Difference", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.  2X2 Squares in Matrix", "..\P02.  2X2 Squares in Matrix\P02.  2X2 Squares in Matrix.csproj", "{DEA670C2-4A39-49C5-BE58-6FC83696CD03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04. Matrix Shuffling", "..\P04. Matrix Shuffling\P04. Matrix Shuffling.csproj", "{035E815B-CC6E-4377-B570-FA2C9E1DA2C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DEA670C2-4A39-49C5-BE58-6FC83696CD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEA670C2-4A39-49C5-BE58-6FC83696CD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEA670C2-4A39-49C5-BE58-6FC83696CD03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035E815B-CC6E-4377-B570-FA2C9E1DA2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035E815B-CC6E-4377-B570-FA2C9E1DA2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035E815B-CC6E-4377-B570-FA2C9E1DA2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035E815B-CC6E-4377-B570-FA2C9E1DA2C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
