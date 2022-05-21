@@ -19,7 +19,7 @@ namespace P01._Diagonal_Difference
 
             for (int i = 0; i < rows; i++)
             {
-                sumPrimaryDiagonal += matrix[i,i];
+               sumPrimaryDiagonal += matrix[i,i];
                sumSecondaryDiagonal +=matrix[i,matrix.GetLength(0)-i-1];
             }
             int finalSum = sumPrimaryDiagonal-sumSecondaryDiagonal;
