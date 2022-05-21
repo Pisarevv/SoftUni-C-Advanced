@@ -63,7 +63,7 @@ namespace P06._Jagged_Array_Manipulator
             for (int row = 0; row < jaggedMatrix.GetLength(0) ; row++)
             {
                 jaggedMatrix[row] = Console.ReadLine()
-                    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                    .Split(" ")
                     .Select(int.Parse)
                     .ToArray();
             }
