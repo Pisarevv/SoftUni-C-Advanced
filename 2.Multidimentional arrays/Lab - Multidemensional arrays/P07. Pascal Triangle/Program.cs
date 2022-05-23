@@ -7,11 +7,11 @@ namespace P07._Pascal_Triangle
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            int[][] jaggedArray = new int[n][];
-            jaggedArray[0] = new int[1] { 1};
+            long[][] jaggedArray = new long[n][];
+            jaggedArray[0] = new long[1] { 1};
             for (int i = 1; i < n; i++)
             {
-                jaggedArray[i] = new int[i+1];
+                jaggedArray[i] = new long[i+1];
                 jaggedArray[i][0] = 1;
                 jaggedArray[i][jaggedArray[i].Length - 1] = 1;
                 for (int j = 1; j < jaggedArray[i].Length-1; j++)
@@ -21,7 +21,7 @@ namespace P07._Pascal_Triangle
                 
             }
 
-            foreach(int[] row in jaggedArray)
+            foreach(long[] row in jaggedArray)
             {
                 Console.WriteLine(string.Join(" ",row));
             }
