@@ -9,19 +9,19 @@ namespace P02._Average_Student_Grades
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            var studentsGrades = new Dictionary<string,List<double>>();
+            var studentsGrades = new Dictionary<string,List<decimal>>();
 
             for (int i = 0; i < n; i++)
             {
                 string[] input = Console.ReadLine()
-                    .Split(' ',StringSplitOptions.RemoveEmptyEntries)
+                    .Split(" ",StringSplitOptions.RemoveEmptyEntries)
                     .ToArray();
                 string studentName = input[0];
-                double grade = double.Parse(input[1]);
+                decimal grade = decimal.Parse(input[1]);
 
                 if (!studentsGrades.ContainsKey(studentName))
                 {
-                    studentsGrades[studentName] = new List<double>();
+                    studentsGrades[studentName] = new List<decimal>();
                 }
                 studentsGrades[studentName].Add(grade);
             }
@@ -29,13 +29,11 @@ namespace P02._Average_Student_Grades
             foreach(var kvp in studentsGrades)
             {
 
-                Console.Write($"{kvp.Key} - > ");
-                foreach(var grade in kvp.Value)
-                {
-                    Console.Write($"{grade:F2} ");
-                }
-                Console.Write($"(avg: {kvp.Value.Average():F2})");
-                Console.WriteLine();
+                List<decimal> grades = kvp.Value;
+                string gradesString = string.Join(" ",grades.Select(x => x.ToString("F2")));
+                decimal average = grades.Average();
+
+                Console.WriteLine($"{kvp.Key} -> {gradesString} (avg: {average:F2})");
             }
         }
     }

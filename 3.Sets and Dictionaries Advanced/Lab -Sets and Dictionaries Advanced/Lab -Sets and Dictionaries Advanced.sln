@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02. Average Student Grades
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03. Largest 3 Numbers", "..\P03. Largest 3 Numbers\P03. Largest 3 Numbers.csproj", "{07D69AB3-35C5-437D-9910-FFC6EF1187EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05. Cities by Continent and Country", "..\P05. Cities by Continent and Country\P05. Cities by Continent and Country.csproj", "{7FC58EE1-CED6-42CB-8AE6-00F1A485B43B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{07D69AB3-35C5-437D-9910-FFC6EF1187EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07D69AB3-35C5-437D-9910-FFC6EF1187EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07D69AB3-35C5-437D-9910-FFC6EF1187EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC58EE1-CED6-42CB-8AE6-00F1A485B43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC58EE1-CED6-42CB-8AE6-00F1A485B43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC58EE1-CED6-42CB-8AE6-00F1A485B43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC58EE1-CED6-42CB-8AE6-00F1A485B43B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
