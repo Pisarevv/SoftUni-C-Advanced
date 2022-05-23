@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03. Primary Diagonal", "P0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04. Symbol in Matrix", "P04. Symbol in Matrix\P04. Symbol in Matrix.csproj", "{05584C3F-FD88-46AC-A44B-0452469431DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.V1. Square with Maximum Sum", "P05.V1. Square with Maximum Sum\P05.V1. Square with Maximum Sum.csproj", "{540CC52A-5256-458C-90CF-8509FBD09EB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{05584C3F-FD88-46AC-A44B-0452469431DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05584C3F-FD88-46AC-A44B-0452469431DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05584C3F-FD88-46AC-A44B-0452469431DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540CC52A-5256-458C-90CF-8509FBD09EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540CC52A-5256-458C-90CF-8509FBD09EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540CC52A-5256-458C-90CF-8509FBD09EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540CC52A-5256-458C-90CF-8509FBD09EB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
