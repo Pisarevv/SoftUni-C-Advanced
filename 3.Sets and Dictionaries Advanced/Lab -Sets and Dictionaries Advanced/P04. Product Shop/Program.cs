@@ -8,7 +8,7 @@ namespace P04._Product_Shop
     {
         static void Main(string[] args)
         {
-            var prices = new SortedDictionary<string, Dictionary<string, decimal>>();
+            var prices = new SortedDictionary<string, Dictionary<string, double>>();
             string input = string.Empty;
 
             while((input = Console.ReadLine()) != "Revision")
@@ -16,11 +16,11 @@ namespace P04._Product_Shop
                 string[] cmdArgs = input.Split(", ",StringSplitOptions.RemoveEmptyEntries).ToArray();
                 string shop = cmdArgs[0];
                 string product = cmdArgs[1];
-                decimal price = decimal.Parse(cmdArgs[2]);
+                double price = double.Parse(cmdArgs[2]);
 
                 if (!prices.ContainsKey(shop))
                 {
-                    prices[shop] = new Dictionary<string, decimal>();
+                    prices[shop] = new Dictionary<string, double>();
                 }
                 if (!prices[shop].ContainsKey(product))
                 {
@@ -34,7 +34,7 @@ namespace P04._Product_Shop
                 Console.WriteLine($"{kvp.Key}->");
                 foreach(var kvp2 in kvp.Value)
                 {
-                    Console.WriteLine($"Product: {kvp2.Key}, Price: {kvp2.Value:F1}");
+                    Console.WriteLine($"Product: {kvp2.Key}, Price: {kvp2.Value}");
                 }
             }
 
