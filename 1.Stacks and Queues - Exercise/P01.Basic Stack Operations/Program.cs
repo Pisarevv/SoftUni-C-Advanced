@@ -23,7 +23,11 @@ namespace P01.Basic_Stack_Operations
                 stack.Pop();
             }
 
-            if (stack.Contains(input[2]))
+            if (stack.Count == 0)
+            {
+                Console.WriteLine(0);
+            }
+            else if (stack.Contains(input[2]))
             {
                 Console.WriteLine("true");
             }
@@ -32,10 +36,7 @@ namespace P01.Basic_Stack_Operations
                 int smallestElement = GetMinElementInStack(stack);
                 Console.WriteLine(smallestElement);
             }
-            else if (stack.Count == 0)
-            {
-                Console.WriteLine(0);
-            }
+            
         }
 
         private static int GetMinElementInStack (Stack stack)
