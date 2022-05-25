@@ -13,7 +13,7 @@ namespace P02._Sets_of_Elements
                 .Select(int.Parse).ToArray();
             int n = input[0];
             int m = input[1];
-            List<int> matchingNumbers = new List<int>();
+            //List<int> matchingNumbers = new List<int>();
             HashSet<int> firstSet = new HashSet<int>();
             for (int i = 0; i < n; i++)
             {
@@ -26,14 +26,16 @@ namespace P02._Sets_of_Elements
                 secondSet.Add(int.Parse(Console.ReadLine()));
             }
 
-            foreach(int number in firstSet)
+            /*foreach(int number in firstSet)
             {
                 if (secondSet.Contains(number))
                 {
                     matchingNumbers.Add(number);
                 }
-            }
-            Console.WriteLine(string.Join(" ",matchingNumbers));
+            }*/
+            firstSet.IntersectWith(secondSet);
+
+            Console.WriteLine(string.Join(" ",firstSet));
         }
     }
 }
