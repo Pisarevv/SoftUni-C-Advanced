@@ -27,11 +27,11 @@ namespace P03._Maximum_and_Minimum_Element
                 {
                     stack.Pop();
                 }
-                else if (command == 3)
+                else if (command == 3 && stack.Count > 0)
                 {
                     Console.WriteLine(GetMaxElementInStack(stack));
                 }
-                else if (command == 4)
+                else if (command == 4 && stack.Count > 0)
                 {
                     Console.WriteLine(GetMinElementInStack(stack));
                 }

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.Basic Stack Operations"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03. Maximum and Minimum Element", "..\P03. Maximum and Minimum Element\P03. Maximum and Minimum Element.csproj", "{1BA7C7AD-1531-43FA-8C86-ADDC7BB0FFF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04. Fast Food", "..\P04. Fast Food\P04. Fast Food.csproj", "{65C6B450-DCA5-47BF-AF9F-F2050F02D20E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05. Fashion Boutique", "..\P05. Fashion Boutique\P05. Fashion Boutique.csproj", "{797AC197-D4C1-4BAF-AFCD-FFFE6B545604}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{1BA7C7AD-1531-43FA-8C86-ADDC7BB0FFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BA7C7AD-1531-43FA-8C86-ADDC7BB0FFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BA7C7AD-1531-43FA-8C86-ADDC7BB0FFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65C6B450-DCA5-47BF-AF9F-F2050F02D20E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C6B450-DCA5-47BF-AF9F-F2050F02D20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C6B450-DCA5-47BF-AF9F-F2050F02D20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C6B450-DCA5-47BF-AF9F-F2050F02D20E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{797AC197-D4C1-4BAF-AFCD-FFFE6B545604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797AC197-D4C1-4BAF-AFCD-FFFE6B545604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797AC197-D4C1-4BAF-AFCD-FFFE6B545604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797AC197-D4C1-4BAF-AFCD-FFFE6B545604}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
