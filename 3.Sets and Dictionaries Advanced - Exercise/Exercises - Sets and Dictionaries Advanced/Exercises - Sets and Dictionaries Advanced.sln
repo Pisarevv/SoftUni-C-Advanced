@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01. Unique Usernames", "P01. Unique Usernames\P01. Unique Usernames.csproj", "{76AB4C1F-E4C2-47A0-A13B-6353CC90AC15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02. Sets of Elements", "..\P02. Sets of Elements\P02. Sets of Elements.csproj", "{4842119B-F682-4022-B675-838E891537A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76AB4C1F-E4C2-47A0-A13B-6353CC90AC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AB4C1F-E4C2-47A0-A13B-6353CC90AC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AB4C1F-E4C2-47A0-A13B-6353CC90AC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AB4C1F-E4C2-47A0-A13B-6353CC90AC15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4842119B-F682-4022-B675-838E891537A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4842119B-F682-4022-B675-838E891537A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4842119B-F682-4022-B675-838E891537A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4842119B-F682-4022-B675-838E891537A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {552A2778-DD22-4A0F-915C-002F9B7055F5}
+	EndGlobalSection
+EndGlobal

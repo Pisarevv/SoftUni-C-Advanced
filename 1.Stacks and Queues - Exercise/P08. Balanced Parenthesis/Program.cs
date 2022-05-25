@@ -40,6 +40,7 @@ namespace P08._Balanced_Parenthesis
                     else
                     {
                         areBalanced = false;
+                        break;
                     }
                 }
             }
