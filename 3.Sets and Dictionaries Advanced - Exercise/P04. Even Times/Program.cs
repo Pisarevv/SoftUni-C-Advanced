@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace P04._Even_Times
 {
@@ -19,13 +20,14 @@ namespace P04._Even_Times
                 numbers[inputNumber]++;
             }
 
-            foreach(var number in numbers)
+            /*foreach(var number in numbers)
             {
                 if(number.Value %2 == 0)
                 {
                     Console.WriteLine(number.Key);
                 }
-            }
+            }*/
+            Console.WriteLine(numbers.First(entry => entry.Value % 2 == 0).Key);
         }
     }
 }

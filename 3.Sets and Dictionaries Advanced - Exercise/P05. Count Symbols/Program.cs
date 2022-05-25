@@ -23,7 +23,7 @@ namespace P05._Count_Symbols
 
             foreach(var c in symbols)
             {
-                Console.WriteLine($"{c.Key} : {c.Value} time\\s");
+                Console.WriteLine($"{c.Key}: {c.Value} time/s");
             }
 
         }
