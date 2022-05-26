@@ -44,7 +44,7 @@ namespace P08._Ranking
                     }
                     if(points > participtains[username][contest])
                     {
-                        participtains[username][contest] += points;
+                        participtains[username][contest] = points;
                     }
                    
                 }
@@ -74,7 +74,7 @@ namespace P08._Ranking
                 Console.WriteLine($"{user.Key}");
                 foreach(var data in user.Value.OrderByDescending(x => x.Value))
                 {
-                    Console.WriteLine($"# {data.Key} -> {data.Value}");
+                    Console.WriteLine($"#  {data.Key} -> {data.Value}");
                 }
             }
         }
