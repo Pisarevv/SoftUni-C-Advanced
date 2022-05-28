@@ -15,23 +15,21 @@ namespace Demo
                 using (writer)
                 {
                     int lineNumber = 0;
-
-                    while (true)
+                    string line;
+                    while ((line = reader.ReadLine()) != null)
                     {
-                        string line = reader.ReadLine();
-                        if (line == null)
-                        {
-                            break;
-                        }
-                        if (lineNumber %2 == 0)
+                        if (lineNumber %2 == 1)
                         {
                             writer.WriteLine(line);
+                            writer.Flush();
                         }
                         lineNumber++;
                     }
                 }
 
             }
+
+            
         }
     }
 }
