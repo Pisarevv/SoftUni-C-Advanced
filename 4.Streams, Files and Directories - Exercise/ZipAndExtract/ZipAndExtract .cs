@@ -32,7 +32,7 @@
             var archive = ZipFile.OpenRead(zipArchiveFilePath);
             var fileForExtraction = archive.GetEntry(fileName);
 
-            fileForExtraction.ExtractToFile(outputFilePath);
+            fileForExtraction.ExtractToFile(outputFilePath);    
         }
     }
 }

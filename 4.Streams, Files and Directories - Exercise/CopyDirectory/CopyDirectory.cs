@@ -1,6 +1,8 @@
 ﻿namespace CopyDirectory
 {
     using System;
+    using System.IO;
+
     public class CopyDirectory
     {
         static void Main()
@@ -13,7 +15,18 @@
 
         public static void CopyAllFiles(string inputPath, string outputPath)
         {
-            throw new NotImplementedException();
+            //създаване Output директория
+            Directory.CreateDirectory(outputPath);
+            //взимане на файлове от инпут директорията
+            var files = Directory.GetFiles(inputPath);
+            foreach (var file in files)
+            {
+                var fileName = Path.GetFileName(file); // взимаме файка с име
+                var copyDestnation = Path.Combine(outputPath, fileName);
+                File.Copy(file, copyDestnation);
+                
+            }
+
         }
     }
 }
