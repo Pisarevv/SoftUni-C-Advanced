@@ -32,8 +32,7 @@
                             {
                                 lettersCount++;
                             }
-                            else if (chars[i] == '-' || chars[i] == '.' || chars[i] == ',' || chars[i] == '\''
-                                || chars[i] == '!' || chars[i] == '?')
+                            else if (char.IsPunctuation(chars[i]))
                             {
                                 separatorCount++;
                             }
