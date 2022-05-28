@@ -15,6 +15,10 @@
 
         public static void CopyAllFiles(string inputPath, string outputPath)
         {
+            if (!Directory.Exists(outputPath))
+            {
+                Directory.Delete(outputPath, true);
+            }
             //създаване Output директория
             Directory.CreateDirectory(outputPath);
             //взимане на файлове от инпут директорията
