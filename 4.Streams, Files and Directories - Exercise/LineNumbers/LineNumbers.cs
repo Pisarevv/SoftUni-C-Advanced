@@ -1,6 +1,8 @@
 ﻿namespace LineNumbers
 {
     using System;
+    using System.IO;
+
     public class LineNumbers
     {
         static void Main()
@@ -13,7 +15,34 @@
 
         public static void ProcessLines(string inputFilePath, string outputFilePath)
         {
-            throw new NotImplementedException();
+            string line = string.Empty;
+            int counter = 1;
+            using(StreamReader reader = new StreamReader(inputFilePath))
+            {
+                using(StreamWriter writer = new StreamWriter(outputFilePath))
+                {
+                    while ((line = reader.ReadLine())!= null)
+                    {
+                        char[] chars = line.ToCharArray();
+                        int lettersCount = 0;
+                        int separatorCount = 0;
+                        for(int i = 0; i < chars.Length; i++)
+                        {
+                            if (char.IsLetter(chars[i]))
+                            {
+                                lettersCount++;
+                            }
+                            else if (chars[i] == '-' || chars[i] == '.' || chars[i] == ',' || chars[i] == '\''
+                                || chars[i] == '!' || chars[i] == '?')
+                            {
+                                separatorCount++;
+                            }
+                        }
+                        writer.WriteLine($"Line {counter}: "+ line +$"({lettersCount})({separatorCount})");
+                        counter++;
+                    }
+                }
+            }
         }
     }
 }
