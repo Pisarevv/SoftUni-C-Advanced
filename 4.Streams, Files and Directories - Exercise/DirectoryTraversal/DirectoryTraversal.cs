@@ -1,6 +1,10 @@
 ﻿namespace DirectoryTraversal
 {
     using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+
     public class DirectoryTraversal
     {
         static void Main()
@@ -16,12 +20,33 @@
 
         public static string TraverseDirectory(string inputFolderPath)
         {
-            throw new NotImplementedException();
+            string[] files = Directory.GetFiles(inputFolderPath);
+            Dictionary<string, List<string>> extensionsInfo= new Dictionary<string, List<string>>();
+            foreach (string file in files)
+            {
+                FileInfo fileInfo = new FileInfo(file);
+                string extension = fileInfo.Extension;
+                if (!extensionsInfo.ContainsKey(extension))
+                {
+                    extensionsInfo[extension] = new List<string>();
+                }
+                extensionsInfo[extension].Add(file);
+            }
+            
+
+            foreach(var entryb c in extensionsInfo.OrderByDescending(entry => entry.Value.Count).ThenBy(entry => entry.Key))
+            {
+                string extension = entry.Key;
+                List<FileInfo> filesInfo = entry.Value;
+            }
+
         }
 
         public static void WriteReportToDesktop(string textContent, string reportFileName)
         {
-            throw new NotImplementedException();
+            string pathReport = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + reportFileName;
+            File.WriteAllText(pathReport, textContent);
+            
         }
     }
 }
