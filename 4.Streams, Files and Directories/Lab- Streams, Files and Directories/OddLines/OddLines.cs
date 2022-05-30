@@ -15,7 +15,22 @@ namespace OddLines
 
         public static void ExtractOddLines(string inputFilePath, string outputFilePath)
         {
-           
+           using(StreamReader reader = new StreamReader(inputFilePath))
+            {
+                using (StreamWriter writer = new StreamWriter(outputFilePath))
+                {
+                    string line = string.Empty;
+                    int counter = -1;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        if(counter %2 == 0)
+                        {
+                            writer.WriteLine(line);
+                        }
+                        counter++;
+                    }
+                }
+            }
         }
     }
 }
