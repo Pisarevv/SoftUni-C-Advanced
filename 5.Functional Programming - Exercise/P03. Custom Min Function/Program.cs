@@ -12,7 +12,7 @@ namespace P03._Custom_Min_Function
                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToList();
-            Func<List<int>, int> findSmallest = x => x.Min();
+            Func<List<int>, int> findSmallest = numbers => numbers.Min();
 
             Console.WriteLine(findSmallest(numbers));
         }
