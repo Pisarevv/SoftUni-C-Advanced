@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04. Find Evens or Odds", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05. Applied Arithmetics", "..\P05. Applied Arithmetics\P05. Applied Arithmetics.csproj", "{4CB3B87F-0623-4281-AE67-DB95FAE5988E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09. Predicate Party!", "..\P09. Predicate Party!\P09. Predicate Party!.csproj", "{61A82C5D-B869-4775-ADE1-3EBE1A23D82C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11.Trifunction", "..\P11.Trifunction\P11.Trifunction.csproj", "{2E16EDE4-00CE-4CF8-BAED-5FB71BFD543E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{4CB3B87F-0623-4281-AE67-DB95FAE5988E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CB3B87F-0623-4281-AE67-DB95FAE5988E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CB3B87F-0623-4281-AE67-DB95FAE5988E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A82C5D-B869-4775-ADE1-3EBE1A23D82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A82C5D-B869-4775-ADE1-3EBE1A23D82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A82C5D-B869-4775-ADE1-3EBE1A23D82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A82C5D-B869-4775-ADE1-3EBE1A23D82C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E16EDE4-00CE-4CF8-BAED-5FB71BFD543E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E16EDE4-00CE-4CF8-BAED-5FB71BFD543E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E16EDE4-00CE-4CF8-BAED-5FB71BFD543E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E16EDE4-00CE-4CF8-BAED-5FB71BFD543E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
