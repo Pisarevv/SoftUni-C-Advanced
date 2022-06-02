@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace DefiningClasses
 {
@@ -6,11 +7,19 @@ namespace DefiningClasses
     {
         static void Main(string[] args)
         {
-            Person person = new Person();
-            person.Name = "Peter";
-            person.Age = 20;
-            Person person1 = new Person("George",18);
-            Person person2 = new Person("Jose", 43);
+           /* int n = int.Parse(Console.ReadLine());
+            Family family = new Family();
+            for (int i = 0; i < n; i++)
+            {
+                string[] input = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).ToArray();
+                Person person = new Person(input[0],int.Parse(input[1]));
+                family.AddMember(person);
+            }
+
+            Person oldestPerson = family.GetOldestMember();
+
+            Console.WriteLine($"{oldestPerson.Name} {oldestPerson.Age}");
+           */
         }
     }
 }
