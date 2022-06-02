@@ -16,7 +16,14 @@ namespace DefiningClasses
             this.familyMembers = new List<Person>();
         }
 
+        //prop
+        public List<Person> FamilyMembers
+        {
+            get { return this.familyMembers; }
+            set { this.familyMembers = value; }
+        }
         //method
+        
         public void AddMember(Person member)
         {
             this.familyMembers.Add(member);
@@ -24,8 +31,8 @@ namespace DefiningClasses
 
         public Person GetOldestMember()
         {
-            int maxAge = this.familyMembers.Max(member => member.Age);
-            return this.familyMembers.First(member => member.Age == maxAge);
+            int maxAge = this.FamilyMembers.Max(member => member.Age);
+            return this.FamilyMembers.First(member => member.Age == maxAge);
         }
     }
 }
