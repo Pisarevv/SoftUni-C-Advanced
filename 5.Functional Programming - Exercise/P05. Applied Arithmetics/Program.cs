@@ -30,7 +30,7 @@ namespace P05._Applied_Arithmetics
                 }
                 else if (command == "subtract")
                 {
-
+                    numbers = subract(numbers);
                 }
                 else if (command == "print")
                 {
