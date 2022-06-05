@@ -94,8 +94,8 @@ namespace DefiningClasses
 
             foreach (Car car in cars)
             {
-
-                Console.WriteLine($"{car.Model}:");
+                Console.Write(car.ToString());
+                /*Console.WriteLine($"{car.Model}:");
                 Console.WriteLine($"  {car.Engine.Model}:");
                 Console.WriteLine($"    Power: {car.Engine.Power}");
                 if (car.Engine.Displacement > 0)
@@ -129,7 +129,7 @@ namespace DefiningClasses
                 else if(car.Color == null)
                 {
                     Console.WriteLine($"  Color: n/a");
-                }
+                }*/
 
 
             }
