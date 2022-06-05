@@ -34,7 +34,7 @@ namespace SoftUniParking
             {
                return ("Car with that registration number, already exists!");
             }
-            else if (cars.Count >= capacity)
+            else if (cars.Count +1 > capacity)
             {
                 return ("Parking is full!");
             }
