@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01. Action Point", "P01. Action Point\P01. Action Point.csproj", "{CB49AE5E-19DF-4CE2-9FA4-6D9C9BF5EE1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01. Action Point", "P01. Action Point\P01. Action Point.csproj", "{CB49AE5E-19DF-4CE2-9FA4-6D9C9BF5EE1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02. Knights of Honor", "..\P02. Knights of Honor\P02. Knights of Honor.csproj", "{B9124BE5-C062-4AAA-A682-41083AD80143}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02. Knights of Honor", "..\P02. Knights of Honor\P02. Knights of Honor.csproj", "{B9124BE5-C062-4AAA-A682-41083AD80143}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03. Custom Min Function", "..\P03. Custom Min Function\P03. Custom Min Function.csproj", "{D46BAA78-EF4B-4E0D-8BC3-580BC868F78F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03. Custom Min Function", "..\P03. Custom Min Function\P03. Custom Min Function.csproj", "{D46BAA78-EF4B-4E0D-8BC3-580BC868F78F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04. Find Evens or Odds", "..\P04. Find Evens or Odds\P04. Find Evens or Odds.csproj", "{B65740D0-4E35-4ECE-8244-CBD8D760D480}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04. Find Evens or Odds", "..\P04. Find Evens or Odds\P04. Find Evens or Odds.csproj", "{B65740D0-4E35-4ECE-8244-CBD8D760D480}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05. Applied Arithmetics", "..\P05. Applied Arithmetics\P05. Applied Arithmetics.csproj", "{4CB3B87F-0623-4281-AE67-DB95FAE5988E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05. Applied Arithmetics", "..\P05. Applied Arithmetics\P05. Applied Arithmetics.csproj", "{4CB3B87F-0623-4281-AE67-DB95FAE5988E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09. Predicate Party!", "..\P09. Predicate Party!\P09. Predicate Party!.csproj", "{61A82C5D-B869-4775-ADE1-3EBE1A23D82C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P09. Predicate Party!", "..\P09. Predicate Party!\P09. Predicate Party!.csproj", "{61A82C5D-B869-4775-ADE1-3EBE1A23D82C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11.Trifunction", "..\P11.Trifunction\P11.Trifunction.csproj", "{2E16EDE4-00CE-4CF8-BAED-5FB71BFD543E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P11.Trifunction", "..\P11.Trifunction\P11.Trifunction.csproj", "{2E16EDE4-00CE-4CF8-BAED-5FB71BFD543E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06. Reverse and Exclude", "..\P06. Reverse and Exclude\P06. Reverse and Exclude.csproj", "{A4258AAE-E57F-4F2A-BCDC-F11A2956498F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{2E16EDE4-00CE-4CF8-BAED-5FB71BFD543E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E16EDE4-00CE-4CF8-BAED-5FB71BFD543E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E16EDE4-00CE-4CF8-BAED-5FB71BFD543E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4258AAE-E57F-4F2A-BCDC-F11A2956498F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4258AAE-E57F-4F2A-BCDC-F11A2956498F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4258AAE-E57F-4F2A-BCDC-F11A2956498F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4258AAE-E57F-4F2A-BCDC-F11A2956498F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

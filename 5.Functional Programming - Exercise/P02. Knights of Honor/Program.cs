@@ -10,10 +10,11 @@ namespace P02._Knights_of_Honor
         {
             Func<string,string> addSir = name => "Sir " + name;
             List<string> names = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries).ToList();
+            Action<string> printWithSir = name => Console.WriteLine($"Sir {name}");
 
             foreach (string name in names)
             {
-                Console.WriteLine(addSir(name));
+                printWithSir(name);
             }
         }
     }
