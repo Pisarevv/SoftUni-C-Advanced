@@ -49,71 +49,9 @@ namespace DefiningClasses
                         foreach (Pokemon pokemon in trainer.Pokemons)
                         {
                             pokemon.Health -= 10;
-
                         }
                     }
-                    /*if (input == "Fire")
-                    {
-                        bool hasPokemon = false;
-                        if (trainer.Pokemons.Any(x => x.Element == input))
-                        {
-                            trainer.Badges++;
-                            hasPokemon = true;
-                        }
-
-                       if (!hasPokemon)
-                        {
-                            foreach (Pokemon pokemon in trainer.Pokemons)
-                            {
-                                pokemon.Health -= 10;
-
-                            }
-                        }
-                    }
-
-                    if (input == "Water")
-                    {
-                        bool hasPokemon = false;
-                        foreach (Pokemon pokemon in trainer.Pokemons)
-                        {
-                            if (pokemon.Element == "Water")
-                            {
-                                trainer.Badges++;
-                                hasPokemon = true;
-                            }
-                        }
-                        if (!hasPokemon)
-                        {
-                            foreach (Pokemon pokemon in trainer.Pokemons)
-                            {
-                                pokemon.Health -= 10;
-
-                            }
-                        }
-                    }
-
-                    if (input == "Electricity")
-                    {
-                        bool hasPokemon = false;
-                        foreach (Pokemon pokemon in trainer.Pokemons)
-                        {
-                            if (pokemon.Element == "Electricity")
-                            {
-                                trainer.Badges++;
-                                hasPokemon = true;
-                            }
-                        }
-                        if (!hasPokemon)
-                        {
-                            foreach (Pokemon pokemon in trainer.Pokemons)
-                            {
-                                pokemon.Health -= 10;
-                                
-                            }
-                            
-                            
-                        }
-                    }*/
+          
                     trainer.Pokemons.RemoveAll(pokemon => pokemon.Health <= 0);
                 }
             }
