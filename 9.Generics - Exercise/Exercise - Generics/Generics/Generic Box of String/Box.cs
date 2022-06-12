@@ -2,17 +2,32 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Generic_Box_of_String
+namespace Generics
 {
-    internal class Box<T>
+    public class Box<T>
     {
-        public T data { get; set; }
+        public List<T> data { get; set; }
 
+        public Box()
+        {
+            data = new List<T>();
+        }
+
+        public void Swap(int index1, int index2)
+        {
+            T firstData = data[index1];
+            data[index1] = data[index2];
+            data[index2] = firstData;
+        }
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append($"{data.GetType()}: {data}");
+            for (int i = 0; i < data.Count; i++)
+            {
+                sb.Append($"{data[i].GetType()}: {data[i]}" + "\n");
+            }         
             return sb.ToString();
         }
+
     }
 }
