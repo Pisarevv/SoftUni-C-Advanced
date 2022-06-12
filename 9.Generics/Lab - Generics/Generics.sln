@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxOfT", "P01. Box of T\Box
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericArrayCreator", "GenericArrayCreator\GenericArrayCreator.csproj", "{87F767BD-EB5F-4C18-AEE7-DB0794F1A5CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericScale", "GenericScale\GenericScale.csproj", "{8CFA763D-B073-4305-8AB3-44BECD94E9D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{87F767BD-EB5F-4C18-AEE7-DB0794F1A5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87F767BD-EB5F-4C18-AEE7-DB0794F1A5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87F767BD-EB5F-4C18-AEE7-DB0794F1A5CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFA763D-B073-4305-8AB3-44BECD94E9D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFA763D-B073-4305-8AB3-44BECD94E9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFA763D-B073-4305-8AB3-44BECD94E9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFA763D-B073-4305-8AB3-44BECD94E9D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
