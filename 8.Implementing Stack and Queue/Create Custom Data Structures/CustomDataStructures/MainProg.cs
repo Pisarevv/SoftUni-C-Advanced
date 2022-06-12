@@ -16,8 +16,15 @@ namespace CustomDataStructures
 
             list.Insert(2, 9);
             Console.WriteLine($"{list.Contains(9)}");
-            list.Swap(1,8);
+            list.Swap(1,2);
             int value = list[2];
+            MyStack stack = new MyStack();
+            stack.Push(2);
+            stack.Push(3);
+            stack.Push(4);
+            Console.WriteLine(stack.Peek());
+            int value2 = stack.Pop();
+            Console.WriteLine(value2);
 
 
         }

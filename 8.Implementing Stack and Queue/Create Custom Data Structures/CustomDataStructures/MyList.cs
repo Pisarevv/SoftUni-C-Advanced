@@ -93,6 +93,10 @@ namespace CustomDataStructures
                 data[firstIndex] = data[secondIndex];
                 data[secondIndex] = dataAtFirstIndex;
             }
+            else
+            {
+                throw new ArgumentException("Invalid index");
+            }
             
         }
         private void ShiftLeft(int index)
