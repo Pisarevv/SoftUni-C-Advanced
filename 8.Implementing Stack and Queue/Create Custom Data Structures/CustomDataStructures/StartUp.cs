@@ -2,7 +2,7 @@
 
 namespace CustomDataStructures
 {
-    internal class MainProg
+    internal class StartUp
     {
         static void Main()
         {
@@ -25,6 +25,15 @@ namespace CustomDataStructures
             Console.WriteLine(stack.Peek());
             int value2 = stack.Pop();
             Console.WriteLine(value2);
+
+
+            MyQueue queue = new MyQueue();
+            queue.Enqueue(2);
+            queue.Enqueue(3);
+            queue.Enqueue(4);
+            queue.Enqueue(5);
+            queue.ForEach(x => Console.WriteLine(x));
+            Console.WriteLine($"{queue.Peek()}");
 
 
         }

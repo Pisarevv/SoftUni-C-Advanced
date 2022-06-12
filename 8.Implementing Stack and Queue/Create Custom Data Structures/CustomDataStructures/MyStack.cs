@@ -36,7 +36,7 @@ namespace CustomDataStructures
         public int Pop()
         {
             int dataAtLastIndex = data[Count-1];
-            data[Count] = default(int);
+            data[Count-1] = default(int);
             return dataAtLastIndex;
         }
 
