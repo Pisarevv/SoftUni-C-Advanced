@@ -1,33 +1,56 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
 using System.Text;
 
-namespace Generics
+namespace Genereics
 {
-    public class Box<T>
+    public class Box<T> : IComparable<T> where T : IComparable<T>
+
     {
-        public List<T> data { get; set; }
-
-        public Box()
+        public Box(T element)
         {
-            data = new List<T>();
+            Element = element;
         }
 
-        public void Swap(int index1, int index2)
+        public Box(List<T> elemntsList)
         {
-            T firstData = data[index1];
-            data[index1] = data[index2];
-            data[index2] = firstData;
+            Elements = elemntsList;
         }
+
+        public List<T> Elements { get; }
+
+        public T Element { get; }
+
+        public int CompareTo(T other)
+        => Element.CompareTo(other);
+        
+        public int CountOfGreaterElements<T>(List<T> list, T readLine) where T: IComparable => 
+            list.Count(word => word.CompareTo(readLine) > 0);
+
+        public void Swap(List<T> elements, int indexOne, int indexTwo)
+        {
+            T firstEl = elements[indexOne];
+            elements[indexOne] = elements[indexTwo];
+            elements[indexTwo] = firstEl;
+        }
+
         public override string ToString()
         {
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < data.Count; i++)
+            var sb = new StringBuilder();
+            foreach (T element in Elements)
             {
-                sb.Append($"{data[i].GetType()}: {data[i]}" + "\n");
-            }         
-            return sb.ToString();
+                sb.AppendLine($"{element.GetType()}: {element}");
+            }
+
+            return sb.ToString().TrimEnd();
+            //return $"{typeof(T)}: {Element}";
         }
+
+   
+
+
 
     }
 }
