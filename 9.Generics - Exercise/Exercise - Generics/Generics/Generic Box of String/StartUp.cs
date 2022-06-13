@@ -21,16 +21,16 @@ namespace Generics
             box.Swap(command[0], command[1]);
             Console.WriteLine(box.ToString());*/
             int n = int.Parse(Console.ReadLine());
-            var list = new List<string>();
+            var list = new List<double>();
             for(int i = 0; i < n; i++)
             {
-                var input = Console.ReadLine();
+                var input = double.Parse(Console.ReadLine());
                 list.Add(input);
             }
-            Box<string> box = new Box<string>(list);
-            var elementToCompare = Console.ReadLine();
+            Box<double> box = new Box<double>(list);
+            double elementToCompare = double.Parse(Console.ReadLine());
 
-            var count = box.CountOfGreaterElements(list, elementToCompare);
+            int count = box.CountOfGreaterElements(list, elementToCompare);
             Console.WriteLine(count);
             
         }
