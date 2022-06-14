@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace P01._ListyIterator
+namespace ListyIterator
 {
-    public class ListyIterator<T>
+    public class ListyIterator<T>: IEnumerable<T>
     {
         private List<T> collection;
         private int currIndex;
@@ -14,6 +15,14 @@ namespace P01._ListyIterator
         {
             this.collection = new List<T>(data);
             this.currIndex = 0;
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            foreach(T element in this.collection)
+            {
+                yield return element;
+            }
         }
 
         public bool HasNext()
@@ -38,6 +47,16 @@ namespace P01._ListyIterator
                 throw new ArgumentException("Invalid Operation");
             }
             Console.WriteLine(collection[currIndex]);
+        }
+
+        public void PrintAll()
+        {
+            Console.WriteLine(string.Join(" ", collection));
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }

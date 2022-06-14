@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace P01._ListyIterator
+namespace ListyIterator
 {
     internal class StartUp
     {
@@ -28,6 +28,10 @@ namespace P01._ListyIterator
                 else if (tokens[0] == "HasNext")
                 {
                     listy.HasNext();
+                }
+                else if(tokens[0] == "PrintAll")
+                {
+                    listy.PrintAll();
                 }
             }
         }
