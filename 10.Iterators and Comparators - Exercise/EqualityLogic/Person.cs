@@ -30,10 +30,9 @@ namespace EqualityLogic
         {
             return Name.GetHashCode() ^ Age.GetHashCode();
         }
-        public override bool Equals(object? obj)
+        public override bool Equals(object obj)
         {
             var other = obj as Person;
-            bool result = false;
             if (other == null)
             {
                 return false;
