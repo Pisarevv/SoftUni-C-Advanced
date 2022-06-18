@@ -35,11 +35,11 @@ namespace Stack
 
             foreach (var token in stack)
             {
-                Console.WriteLine(token);
+                Console.Write(token + " ");
             }
             foreach (var token in stack)
             {
-                Console.WriteLine(token);
+                Console.Write(token + " ");
             }
         }
     }
