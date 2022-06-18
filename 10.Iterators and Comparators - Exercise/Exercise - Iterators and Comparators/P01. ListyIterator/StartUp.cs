@@ -27,7 +27,7 @@ namespace ListyIterator
                 }
                 else if (tokens[0] == "HasNext")
                 {
-                    listy.HasNext();
+                    Console.WriteLine(listy.HasNext()); 
                 }
                 else if(tokens[0] == "PrintAll")
                 {

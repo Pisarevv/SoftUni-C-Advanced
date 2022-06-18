@@ -44,7 +44,8 @@ namespace ListyIterator
         {
             if (collection.Count == 0)
             {
-                throw new ArgumentException("Invalid Operation");
+                Console.WriteLine("Invalid Operation!");
+                return;
             }
             Console.WriteLine(collection[currIndex]);
         }
