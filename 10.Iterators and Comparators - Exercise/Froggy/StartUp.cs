@@ -9,7 +9,7 @@ namespace Froggy
         {
             var Lake = new Lake(Console.ReadLine().Split(", ",StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray());
             Console.WriteLine(string.Join(", ", Lake));
-     
+            
         }
     }
 }

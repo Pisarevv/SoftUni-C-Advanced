@@ -18,7 +18,7 @@ namespace Froggy
         {
             for (int i = 0; i < this.list.Count; i++)
             {
-                if (list[i] % 2 != 0)
+                if (i % 2 == 0)
                 {
                     yield return list[i];
                 }
@@ -26,7 +26,7 @@ namespace Froggy
 
             for (int i = this.list.Count - 1; i >= 0; i--)
             {
-                if (list[i] % 2 == 0)
+                if (i % 2 != 0)
                 {
                     yield return list[i];
                 }
