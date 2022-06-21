@@ -73,7 +73,7 @@ namespace Drones
             var availableDrones = Drones.Where(x => x.Available == true);
 
             return
-                 $"Drones available at {this.Name}:" + Environment.NewLine +
+                $"Drones available at {this.Name}:" + Environment.NewLine +
                 string.Join(Environment.NewLine, availableDrones);
 
         }

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Beaver at Work", "02. B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drones", "Drones\Drones\Drones.csproj", "{E1A4359F-86A5-4488-AC53-1012C3CC6724}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Blacksmith", "01. Blacksmith\01. Blacksmith.csproj", "{3CA6DDD6-3213-4460-A9F8-86D427EFAC33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Truffle Hunter", "02. Truffle Hunter\02. Truffle Hunter.csproj", "{4E10C715-342F-41D9-9D7A-1DC14211DEB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{E1A4359F-86A5-4488-AC53-1012C3CC6724}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1A4359F-86A5-4488-AC53-1012C3CC6724}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1A4359F-86A5-4488-AC53-1012C3CC6724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA6DDD6-3213-4460-A9F8-86D427EFAC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA6DDD6-3213-4460-A9F8-86D427EFAC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA6DDD6-3213-4460-A9F8-86D427EFAC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA6DDD6-3213-4460-A9F8-86D427EFAC33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E10C715-342F-41D9-9D7A-1DC14211DEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E10C715-342F-41D9-9D7A-1DC14211DEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E10C715-342F-41D9-9D7A-1DC14211DEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E10C715-342F-41D9-9D7A-1DC14211DEB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
