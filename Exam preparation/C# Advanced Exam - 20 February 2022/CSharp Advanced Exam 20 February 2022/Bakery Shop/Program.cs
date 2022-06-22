@@ -57,7 +57,7 @@ namespace Bakery_Shop
             foreach(var kvp in bakeryProducts.OrderByDescending(x => x.Value).ThenBy(x => x.Key))
             {
                 if(kvp.Value > 0)
-                Console.WriteLine($"{kvp.Key} : {kvp.Value}");
+                Console.WriteLine($"{kvp.Key}: {kvp.Value}");
             }
             if(water.Count == 0)
             {
