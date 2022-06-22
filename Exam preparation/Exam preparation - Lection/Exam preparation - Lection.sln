@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Blacksmith", "01. Black
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Truffle Hunter", "02. Truffle Hunter\02. Truffle Hunter.csproj", "{4E10C715-342F-41D9-9D7A-1DC14211DEB3}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockMarket", "Stock Market\StockMarket\StockMarket.csproj", "{8E2783B5-E569-457B-946A-7DFD54235626}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4E10C715-342F-41D9-9D7A-1DC14211DEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E10C715-342F-41D9-9D7A-1DC14211DEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E10C715-342F-41D9-9D7A-1DC14211DEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E2783B5-E569-457B-946A-7DFD54235626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2783B5-E569-457B-946A-7DFD54235626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2783B5-E569-457B-946A-7DFD54235626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2783B5-E569-457B-946A-7DFD54235626}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
