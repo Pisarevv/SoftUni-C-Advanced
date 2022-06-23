@@ -65,6 +65,7 @@ namespace _01.Masterchef
                 else
                 {
                     success = false;
+                    break;
                 }
             }
             if (success)
