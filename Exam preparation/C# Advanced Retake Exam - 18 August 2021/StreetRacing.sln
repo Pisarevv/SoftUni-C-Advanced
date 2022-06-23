@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreetRacing", "StreetRacin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Birthday Celebration", "01.Birthday Celebration\01.Birthday Celebration.csproj", "{6906DE8E-680F-4427-9833-7842B7841829}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. The Battle of The Five Armies", "02. The Battle of The Five Armies\02. The Battle of The Five Armies.csproj", "{B8B2E047-6C66-4F21-8853-677275AE4E07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6906DE8E-680F-4427-9833-7842B7841829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6906DE8E-680F-4427-9833-7842B7841829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6906DE8E-680F-4427-9833-7842B7841829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B2E047-6C66-4F21-8853-677275AE4E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B2E047-6C66-4F21-8853-677275AE4E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B2E047-6C66-4F21-8853-677275AE4E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B2E047-6C66-4F21-8853-677275AE4E07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
