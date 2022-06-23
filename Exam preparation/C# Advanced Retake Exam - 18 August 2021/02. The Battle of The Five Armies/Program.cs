@@ -84,7 +84,7 @@ namespace _02._The_Battle_of_The_Five_Armies
                     if (armorOfArmy <= 0)
                     {
                         isDefeated = true;
-                        
+                        map[armyRow][armyCol] = "X";
                         return;
                     }
                 }
@@ -127,6 +127,12 @@ namespace _02._The_Battle_of_The_Five_Armies
                     armyRow = newRow;
                     armyCol = newCol;
                     armorOfArmy--;
+                    if (armorOfArmy <= 0)
+                    {
+                        isDefeated = true;
+                        map[armyRow][armyCol] = "X";
+                        return;
+                    }
                 }
             }
         }
