@@ -72,6 +72,7 @@ namespace _02.Survivor
                     for (int i = row; i > 0; i--)
                     {
                         stepsCount++;
+                        row--;
                         if (map[row][col] == "T")
                         {
                             opponentTockens++;
@@ -81,7 +82,7 @@ namespace _02.Survivor
                         {
                             break;
                         }
-                        row--;
+                        
 
                     }
                 }
@@ -111,6 +112,7 @@ namespace _02.Survivor
                     for (int i = col; i > 0; i--)
                     {
                         stepsCount++;
+                        col--;
                         if (map[row][col] == "T")
                         {
                             opponentTockens++;
@@ -120,7 +122,7 @@ namespace _02.Survivor
                         {
                             break;
                         }
-                        col--;
+                        
 
                     }
                 }
