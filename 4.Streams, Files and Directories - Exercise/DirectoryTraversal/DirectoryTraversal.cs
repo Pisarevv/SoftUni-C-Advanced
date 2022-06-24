@@ -4,6 +4,7 @@
     using System.Collections.Generic;
     using System.IO;
     using System.Linq;
+    using System.Text;
 
     public class DirectoryTraversal
     {
@@ -20,25 +21,40 @@
 
         public static string TraverseDirectory(string inputFolderPath)
         {
+            StringBuilder sb = new StringBuilder();
             string[] files = Directory.GetFiles(inputFolderPath);
-            Dictionary<string, List<string>> extensionsInfo= new Dictionary<string, List<string>>();
+            Dictionary<string, Dictionary<string,double>> extensionsInfo = new Dictionary<string, Dictionary<string, double>>();
             foreach (string file in files)
             {
                 FileInfo fileInfo = new FileInfo(file);
                 string extension = fileInfo.Extension;
                 if (!extensionsInfo.ContainsKey(extension))
                 {
-                    extensionsInfo[extension] = new List<string>();
+                    extensionsInfo[extension] = new Dictionary<string, double>();
+                    extensionsInfo[extension][fileInfo.Name] = fileInfo.Length;
                 }
-                extensionsInfo[extension].Add(file);
-            }
-            
+                if (!extensionsInfo[extension].ContainsKey(fileInfo.Name))
+                {
+                    extensionsInfo[extension][fileInfo.Name] = fileInfo.Length;
+                }
+                
 
-            foreach(var entryb c in extensionsInfo.OrderByDescending(entry => entry.Value.Count).ThenBy(entry => entry.Key))
+            }
+
+
+            foreach (var entry in extensionsInfo.OrderByDescending(entry => entry.Value.Count).ThenBy(entry => entry.Key))
             {
                 string extension = entry.Key;
-                List<FileInfo> filesInfo = entry.Value;
+                sb.AppendLine(extension);
+                foreach (var value in extensionsInfo[extension].OrderBy(x => x.Value))
+                {
+                    string fileName = value.Key;
+                    double fileSize = value.Value/1024;
+                    sb.AppendLine($"--{fileName} - {fileSize:F3}kb");
+                }
             }
+
+            return sb.ToString();
 
         }
 
@@ -46,7 +62,7 @@
         {
             string pathReport = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + reportFileName;
             File.WriteAllText(pathReport, textContent);
-            
+
         }
     }
 }
